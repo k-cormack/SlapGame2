@@ -14,8 +14,8 @@ function draw() { //"draw" is just the name; could call it "update", etc.
         </div>
         <div>
             <button onclick="app.controllers.mySlapController.attack('slap')">Slap</button>
-            <button onclick="app.controllers.mySlapController.attack('punch'")>Punch</button>
-            <button onclick="app.controllers.mySlapController.attack('sick')">Kick</button>
+            <button onclick="app.controllers.mySlapController.attack('punch')">Punch</button>
+            <button onclick="app.controllers.mySlapController.attack('kick')">Kick</button>
             <button onclick="app.controllers.mySlapController.attack('special')">Special</button>      
         </div>
         ` //remember, these are back-ticks
